@@ -20,4 +20,4 @@
 ###### In VNC Viewer, use New Connection, enter either raspberrypi or raspberrypi.local (whichever was used to setup)
 ###### Double click on RPi setup in VNC Viewer and login
 ###### *Note* Can update password via Putty by terminal command " passwd "
-###### Once setup, only need RPi powered up and Putty or VNC depending on task
+###### Once setup, only need RPi powered up and Putty connected first to have VNC recognize IP address
