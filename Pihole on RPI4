@@ -11,6 +11,8 @@ also setup local pc DNS to cloudeflare open dns etc
 ensure all traffic is going thru pihole under dashboard (all others will start if rebooted)
 edit /etc/lighttpd/lighttpd.conf pihole port to 8080 before installing anything
 
-### If from backup, redo pihole install to reallow network access and re-enable gravity list
+### If from backup, redo pihole install to reallow network access and re-enable gravity list, password is still starting with g and ends in J
 
 ##Currently backed up as IMG
+
+**Start from here for all new installs!**
