@@ -3,13 +3,16 @@ setup ssh by putting in text document ssh
 ssh into RPI via IP (IP through router)
 turn on VNC and changed resolution to max available, reboot
 
-install pihole via curl -sSL https://install.pi-hole.net | bash
+install pihole via 
+# curl -sSL https://install.pi-hole.net | bash
+
 after initial setup load gravity list (or use teleporter under settings tab)
 update gravity (which could take long)
 force DHCP on local router settings to funnel all traffic through pi
 also setup local pc DNS to cloudeflare open dns etc
 ensure all traffic is going thru pihole under dashboard (all others will start if rebooted)
 edit /etc/lighttpd/lighttpd.conf pihole port to 8080 before installing anything
+# sudo nano /etc/lighttpd/lighttpd.conf
 
 ### If from backup, redo pihole install to reallow network access and re-enable gravity list, password is still starting with g and ends in J
 
